@@ -6,7 +6,7 @@ A = diag(lambda);
 y0 = [1;1];
 FE_ts_restriction = min(-2*real(lambda)./abs(lambda).^2)
 I = eye(2);
-ts = 2001;
+ts = 3000;
 k = T/ts
 yFE = y0;
 yBE = y0;
@@ -21,7 +21,7 @@ plot(t,max(abs(yFE)),'*',t,max(abs(yBE)),'o',t,max(abs(yTRAP)),'x')
 xlabel('time')
 ylabel('Solution infinity norm')
 legend('Forward Euler','Backward Euler','Trapezoidal')
-tsrange = 100:100:ts;
+tsrange = 2100:100:ts;
 counter = 0;
 for ts = tsrange
   counter = counter+1;
