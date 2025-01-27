@@ -6,3 +6,6 @@ Lecture 2 (23/01/2025): Introduction to exponential integrators, exponential
 Euler method, convergence proof, backward-forward Euler method and hints on
 Lawson methods.
 
+Lecture 3 (27/01/2025): Implementation of exponential Euler and BF Euler for
+nonlinear diffusion equation, space discretization with inner nodes,
+diagonalization.
