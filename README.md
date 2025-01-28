@@ -5,12 +5,14 @@ Lecturers: **Marco Caliari** and **Fabio Cassini**
 This advanced course explores the theory, development, and
 application of exponential integrators in the numerical solution of stiff
 systems of ordinary differential equations (ODEs). The key topics are:
-* introduction to Exponential Integrators: Overview of traditional;
-* methods and the motivation for using exponential integrators for stiff;
-* systems of ODEs;
-* advanced Numerical Methods: Krylov subspace methods and other;
-* polynomial or rational numerical techniques for approximating matrix functions, also in large-scale systems;
-* implementation Techniques: Practical considerations for implementing exponential integrators on modern computer systems;
+* introduction to exponential integrators: overview of traditional
+  methods and the motivation for using exponential integrators for stiff
+  systems of ODEs;
+* advanced numerical methods: Krylov subspace methods and other polynomial or
+  rational numerical techniques for approximating matrix functions,
+  also in large-scale systems;
+* implementation techniques: practical considerations for implementing
+  exponential integrators on modern computer systems;
 * applications to Advection-Diffusion-Reaction and Schrödinger equations, among others.
 
 This intensive course will include lectures and laboratory sessions.
