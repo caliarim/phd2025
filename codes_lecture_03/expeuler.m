@@ -1,7 +1,9 @@
-function y = expeuler(m,tau,A,f,y0,V,D)
+function y = expeuler(y0,m,tau,f,V,d)
 
-y = y0;
-M = diag(phi1(diag(tau*D)));
-for jj=1:m
-  y = y + tau*(V*(M*V'*f(y)));
+  y = y0;
+  M = diag(phi1(tau*d));
+  for jj = 1:m
+    y = y + tau*(V*(M*(V'*f(y))));
+  end
+
 end
