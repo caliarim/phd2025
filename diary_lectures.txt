@@ -9,3 +9,7 @@ Lawson methods.
 Lecture 3 (27/01/2025, 2h): Implementation of exponential Euler and BF Euler for
 nonlinear diffusion equation, space discretization with inner nodes,
 diagonalization.
+
+Lecture 4 (30/01/2025, 2h): Exponential quadrature rules with 1 point
+(full proof) and 2 points (only the scheme and the conditions on the points).
+Implementation for i*Delta
