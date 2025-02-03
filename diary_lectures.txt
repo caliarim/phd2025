@@ -13,3 +13,8 @@ diagonalization.
 Lecture 4 (30/01/2025, 2h): Exponential quadrature rules with 1 point
 (full proof) and 2 points (only the scheme and the conditions on the points).
 Implementation for i*Delta
+
+Lecture 5 (03/02/2025, 2h): Exponential Runge--Kutta methods with one collocation
+point, derivation integrator with just phi1 and with phi1 and phi2,
+derivation of order conditions for the latter.
+Implementation for semilinear heat equation
