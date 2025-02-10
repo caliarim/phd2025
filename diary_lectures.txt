@@ -18,3 +18,9 @@ Lecture 5 (03/02/2025, 2h): Exponential Runge--Kutta methods with one collocatio
 point, derivation integrator with just phi1 and with phi1 and phi2,
 derivation of order conditions for the latter.
 Implementation for semilinear heat equation
+
+Lecture 6 (10/02/2025, 2h): Derivation of exponential Rosenbrock--Euler method,
+convergence proof in the semilinear case. Derivation of the integrator for
+non-autonomous problems. Example of standard Rosenbrock integrator.
+Implementation for semilinear heat equation. Approximation of Jacobian with
+forward finite differences and complex step.
