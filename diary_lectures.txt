@@ -24,3 +24,7 @@ convergence proof in the semilinear case. Derivation of the integrator for
 non-autonomous problems. Example of standard Rosenbrock integrator.
 Implementation for semilinear heat equation. Approximation of Jacobian with
 forward finite differences and complex step.
+
+Lecture 7 (13/02/2025, 2h): Taylor and Pade' matrix approximations of exp,
+phi1, and phi2 functions, (modified) scaling and squaring, backward error
+analysis for Taylor approximation of exp.
