@@ -6,9 +6,9 @@ function [N,PHI0] = phi1m(A)
 % PHI1 is the approximation of phi_1(A) by the Pade' approximation (9,9)
 % and PHI0 is the approximation of expm(A)
 
-% Scale A by power of 2 so that its norm is < 1/2 .
+% Scale A by power of 2 so that its norm is < 2 .
 [f,e] = log2(norm(A,1));
-s = min(max(0,e+1),1023);
+s = min(max(0,e-1),1023);
 A = A/2^s;
 % Pade approximation for phi1(z)
 ID = eye(size(A));
