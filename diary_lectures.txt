@@ -28,3 +28,6 @@ forward finite differences and complex step.
 Lecture 7 (13/02/2025, 2h): Taylor and Pade' matrix approximations of exp,
 phi1, and phi2 functions, (modified) scaling and squaring, backward error
 analysis for Taylor approximation of exp.
+
+Lecture 8 (17/02/2025, 2h): Taylor (expmv) for the action of the matrix
+exponential, augmented matrix, numerical example of 2D diffusion.
