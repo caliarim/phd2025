@@ -34,3 +34,6 @@ exponential, augmented matrix, numerical example of 2D diffusion.
 
 Lecture 9A (20/02/2025, 1h): Krylov method (Arnoldi factorization), properties,
 kiops (incomplete Krylov).
+
+Lecture 9B (20/02/2025, 1h): 2D finite differences on structured grids, Kronecker
+product, motivating example 2D advection--diffusion--reaction.
