@@ -31,3 +31,6 @@ analysis for Taylor approximation of exp.
 
 Lecture 8 (17/02/2025, 2h): Taylor (expmv) for the action of the matrix
 exponential, augmented matrix, numerical example of 2D diffusion.
+
+Lecture 9A (20/02/2025, 1h): Krylov method (Arnoldi factorization), properties,
+kiops (incomplete Krylov).
