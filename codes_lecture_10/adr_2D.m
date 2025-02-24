@@ -74,12 +74,22 @@ for m = mrange
   tau = T/m;
   u_lev = leuler_vec(U0(:),tau,m,K,g);
   err_lev(counter) = norm(uref(:)-u_lev,inf);
-  u_lem = leuler_mat(U0,tau,m,A,B,g);
+  u_lem = leuler_mat(U0,tau,m,full(A),full(B),g);
   err_lem(counter) = norm(uref(:)-u_lem(:),inf);
+  u_eev = expeuler_vec(U0(:),tau,m,K,g);
+  err_eev(counter) = norm(uref(:)-u_eev,inf);
+  u_eems = expeuler_mat_syl(U0,tau,m,full(A),full(B),g);
+  err_eems(counter) = norm(uref(:)-u_eems(:),inf);
+  u_eemsp = expeuler_mat_split(U0,tau,m,full(A),full(B),g);
+  err_eemsp(counter) = norm(uref(:)-u_eemsp(:),inf);
+
 end
 
 figure;
 loglog(mrange,err_lev,'xb',mrange,err_lev(end)*(mrange/mrange(end)).^(-1),'--k')
 hold on
 loglog(mrange,err_lem,'sm',mrange,err_lem(end)*(mrange/mrange(end)).^(-1),'--k')
+loglog(mrange,err_eev,'or',mrange,err_eev(end)*(mrange/mrange(end)).^(-1),'--k')
+loglog(mrange,err_eems,'+g',mrange,err_eems(end)*(mrange/mrange(end)).^(-1),'--k')
+loglog(mrange,err_eemsp,'*c',mrange,err_eemsp(end)*(mrange/mrange(end)).^(-1),'--k')
 drawnow
