@@ -37,3 +37,9 @@ kiops (incomplete Krylov).
 
 Lecture 9B (20/02/2025, 1h): 2D finite differences on structured grids, Kronecker
 product, motivating example 2D advection--diffusion--reaction.
+
+Lecture 10 (14/02/2025, 2h): Exploiting the Kronecker structure in Lawson methods,
+action of the matrix exponential for a Kronecker sum,
+generalization to phi1 function (Sylvester and quadrature approaches), directional
+splitting of phi1 function. Considerations on the implementation of a 2D ADR
+equation.
